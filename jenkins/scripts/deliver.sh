@@ -27,5 +27,8 @@ chmod +r target/my-app-1.0-SNAPSHOT.jar
 chmod +x target/my-app-1.0-SNAPSHOT.jar
 cd target
 ls
-cat ${NAME}-${VERSION}.jar
-java -jar ${NAME}-${VERSION}.jar
+echo "The generated file is:"
+echo ${NAME}-${VERSION}.jar 
+cat my-app-1.0-SNAPSHOT.jar
+java -jar my-app-1.0-SNAPSHOT.jar
+# java -jar ${NAME}-${VERSION}.jar
