@@ -25,4 +25,5 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 ls target
 chmod +r target/my-app-1.0-SNAPSHOT.jar
+chmod +x target/my-app-1.0-SNAPSHOT.jar
 java -jar target/${NAME}-${VERSION}.jar
