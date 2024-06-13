@@ -27,4 +27,5 @@ chmod +r target/my-app-1.0-SNAPSHOT.jar
 chmod +x target/my-app-1.0-SNAPSHOT.jar
 cd target
 ls
+cat ${NAME}-${VERSION}.jar
 java -jar ${NAME}-${VERSION}.jar
